@@ -10483,6 +10483,18 @@ fieldset:disabled .btn {
   z-index: 3 !important;
 }
 
+.z-index-4 {
+  z-index: 4 !important;
+}
+
+.z-index-5 {
+  z-index: 5 !important;
+}
+
+.z-index-6 {
+  z-index: 6 !important;
+}
+
 .letter-spacing-1 {
   letter-spacing: 1px !important;
 }
