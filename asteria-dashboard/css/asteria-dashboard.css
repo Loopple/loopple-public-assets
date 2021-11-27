@@ -20511,6 +20511,11 @@ fieldset:disabled .btn {
   color: #3A416F;
 }
 
+.btn-default {
+  background: #8392AB;
+  color: #fff;
+}
+
 .breadcrumb-item {
   font-size: 0.875rem;
 }
@@ -21605,6 +21610,30 @@ svg.text-dark .color-background {
 
 .blur.blur-dark {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.blur.bg-success {
+  background: #1f8f14 !important;
+}
+
+.blur.bg-info {
+  background: #072bae !important;
+}
+
+.blur.bg-warning {
+  background: #fbcf33 !important;
+}
+
+.blur.bg-primary {
+  background: #02a352 !important;
+}
+
+.blur.bg-dark {
+  background: #212b36 !important;
+}
+
+.blur.bg-default {
+  background: #8392AB !important;
 }
 
 .shadow-blur {
