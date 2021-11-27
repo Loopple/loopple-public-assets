@@ -3556,7 +3556,7 @@ textarea.form-control.is-invalid {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.75rem 1.5rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   border-radius: 0.5rem;
   transition: all 0.15s ease-in;
 }
@@ -19793,7 +19793,7 @@ fieldset:disabled .btn {
 
 */
 .alert-primary {
-  background-image: linear-gradient(310deg, #7928CA 0%, #d6006c 100%);
+  background-image: linear-gradient(310deg, #00a351 0%, #3aa521 100%);
 }
 
 .alert-secondary {
@@ -19801,15 +19801,15 @@ fieldset:disabled .btn {
 }
 
 .alert-success {
-  background-image: linear-gradient(310deg, #17ad37 0%, #84dc14 100%);
+  background-image: linear-gradient(310deg, #2dae22 0%, #35e326 100%);
 }
 
 .alert-info {
-  background-image: linear-gradient(310deg, #2152ff 0%, #02c6f3 100%);
+  background-image: linear-gradient(310deg, #082aae 0%, #355fff 100%);
 }
 
 .alert-warning {
-  background-image: linear-gradient(310deg, #f53939 0%, #fac60b 100%);
+  background-image: linear-gradient(310deg, #ffb642 0%, #ffce21 100%);
 }
 
 .alert-danger {
@@ -19928,19 +19928,19 @@ fieldset:disabled .btn {
 }
 
 .bg-primary-soft {
-  background: rgba(121, 40, 202, 0.1);
+  background: rgba(0, 163, 81, 0.1);
 }
 
 .bg-info-soft {
-  background: rgba(33, 82, 255, 0.1);
+  background: rgba(8, 42, 174, 0.1);
 }
 
 .bg-success-soft {
-  background: rgba(23, 173, 55, 0.1);
+  background: rgba(45, 174, 34, 0.1);
 }
 
 .bg-warning-soft {
-  background: rgba(245, 57, 57, 0.1);
+  background: rgba(255, 182, 66, 0.1);
 }
 
 .bg-danger-soft {
@@ -19986,7 +19986,7 @@ fieldset:disabled .btn {
 .btn {
   margin-bottom: 1rem;
   letter-spacing: -0.025rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   box-shadow: 0 4px 7px -1px rgba(0, 0, 0, 0.11), 0 2px 4px -1px rgba(0, 0, 0, 0.07);
   background-size: 150%;
   background-position-x: 25%;
@@ -20648,7 +20648,7 @@ fieldset:disabled .btn {
 }
 
 .card.card-background.card-background-mask-primary:after {
-  background-image: linear-gradient(310deg, #7928CA 0%, #FF0080 100%);
+  background-image: linear-gradient(310deg, #00a351 0%, #46c728 100%);
   opacity: .85;
 }
 
@@ -20666,7 +20666,7 @@ fieldset:disabled .btn {
 }
 
 .card.card-background.card-background-mask-success:after {
-  background-image: linear-gradient(310deg, #17ad37 0%, #98ec2d 100%);
+  background-image: linear-gradient(310deg, #2dae22 0%, #57e84a 100%);
   opacity: .85;
 }
 
@@ -20675,7 +20675,7 @@ fieldset:disabled .btn {
 }
 
 .card.card-background.card-background-mask-info:after {
-  background-image: linear-gradient(310deg, #2152ff 0%, #21d4fd 100%);
+  background-image: linear-gradient(310deg, #082aae 0%, #5e7fff 100%);
   opacity: .85;
 }
 
@@ -20684,7 +20684,7 @@ fieldset:disabled .btn {
 }
 
 .card.card-background.card-background-mask-warning:after {
-  background-image: linear-gradient(310deg, #f53939 0%, #fbcf33 100%);
+  background-image: linear-gradient(310deg, #ffb642 0%, #ffd74a 100%);
   opacity: .85;
 }
 
@@ -21302,7 +21302,7 @@ label,
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(310deg, #7928CA 0%, #FF0080 100%);
+  background-image: linear-gradient(310deg, #00a351 0%, #46c728 100%);
 }
 
 .bg-gradient-secondary {
@@ -21310,15 +21310,15 @@ label,
 }
 
 .bg-gradient-success {
-  background-image: linear-gradient(310deg, #17ad37 0%, #98ec2d 100%);
+  background-image: linear-gradient(310deg, #2dae22 0%, #57e84a 100%);
 }
 
 .bg-gradient-info {
-  background-image: linear-gradient(310deg, #2152ff 0%, #21d4fd 100%);
+  background-image: linear-gradient(310deg, #082aae 0%, #5e7fff 100%);
 }
 
 .bg-gradient-warning {
-  background-image: linear-gradient(310deg, #f53939 0%, #fbcf33 100%);
+  background-image: linear-gradient(310deg, #ffb642 0%, #ffd74a 100%);
 }
 
 .bg-gradient-danger {
@@ -21528,11 +21528,11 @@ label,
 }
 
 svg.text-primary .color-foreground {
-  fill: #7928CA;
+  fill: #00a351;
 }
 
 svg.text-primary .color-background {
-  fill: #FF0080;
+  fill: #46c728;
 }
 
 svg.text-secondary .color-foreground {
@@ -21544,19 +21544,19 @@ svg.text-secondary .color-background {
 }
 
 svg.text-info .color-foreground {
-  fill: #2152ff;
+  fill: #082aae;
 }
 
 svg.text-info .color-background {
-  fill: #21d4fd;
+  fill: #5e7fff;
 }
 
 svg.text-warning .color-foreground {
-  fill: #f53939;
+  fill: #ffb642;
 }
 
 svg.text-warning .color-background {
-  fill: #fbcf33;
+  fill: #ffd74a;
 }
 
 svg.text-danger .color-foreground {
@@ -21568,11 +21568,11 @@ svg.text-danger .color-background {
 }
 
 svg.text-success .color-foreground {
-  fill: #17ad37;
+  fill: #2dae22;
 }
 
 svg.text-success .color-background {
-  fill: #98ec2d;
+  fill: #57e84a;
 }
 
 svg.text-dark .color-foreground {
@@ -21627,7 +21627,7 @@ svg.text-dark .color-background {
 }
 
 .blur-section.blur-gradient-primary {
-  background-image: linear-gradient(310deg, rgba(121, 40, 202, 0.95) 0%, rgba(255, 0, 128, 0.95) 100%);
+  background-image: linear-gradient(310deg, rgba(0, 163, 81, 0.95) 0%, rgba(70, 199, 40, 0.95) 100%);
 }
 
 *.move-on-hover {
@@ -21650,7 +21650,7 @@ svg.text-dark .color-background {
 }
 
 *.gradient-animation {
-  background: linear-gradient(-45deg, #2152ff, #ea0606, #fbcf33, #7928CA, #212b36);
+  background: linear-gradient(-45deg, #082aae, #ea0606, #fbcf33, #00a351, #212b36);
   background-size: 400% 400% !important;
   animation: gradient 10s ease infinite;
 }
@@ -23187,8 +23187,8 @@ hr.horizontal.gray-light {
 }
 
 .nav.nav-pills.nav-pills-primary .moving-tab .nav-link.active {
-  background: #7928CA;
-  color: #7928CA;
+  background: #00a351;
+  color: #00a351;
 }
 
 .nav.nav-pills.nav-pills-info {
@@ -23201,8 +23201,8 @@ hr.horizontal.gray-light {
 }
 
 .nav.nav-pills.nav-pills-info .moving-tab .nav-link.active {
-  background: #2152ff;
-  color: #2152ff;
+  background: #082aae;
+  color: #082aae;
 }
 
 .nav.nav-pills.nav-pills-success {
@@ -23215,8 +23215,8 @@ hr.horizontal.gray-light {
 }
 
 .nav.nav-pills.nav-pills-success .moving-tab .nav-link.active {
-  background: #17ad37;
-  color: #17ad37;
+  background: #2dae22;
+  color: #2dae22;
 }
 
 .nav.nav-pills.nav-pills-warning {
@@ -23229,8 +23229,8 @@ hr.horizontal.gray-light {
 }
 
 .nav.nav-pills.nav-pills-warning .moving-tab .nav-link.active {
-  background: #f53939;
-  color: #f53939;
+  background: #ffb642;
+  color: #ffb642;
 }
 
 .nav.nav-pills.nav-pills-danger {
@@ -23308,7 +23308,7 @@ hr.horizontal.gray-light {
 .pagination.pagination-primary .page-item.active>.page-link,
 .pagination.pagination-primary .page-item.active>.page-link:focus,
 .pagination.pagination-primary .page-item.active>.page-link:hover {
-  background-image: linear-gradient(310deg, #7928CA 0%, #FF0080 100%);
+  background-image: linear-gradient(310deg, #00a351 0%, #46c728 100%);
   border: none;
 }
 
@@ -23322,21 +23322,21 @@ hr.horizontal.gray-light {
 .pagination.pagination-success .page-item.active>.page-link,
 .pagination.pagination-success .page-item.active>.page-link:focus,
 .pagination.pagination-success .page-item.active>.page-link:hover {
-  background-image: linear-gradient(310deg, #17ad37 0%, #98ec2d 100%);
+  background-image: linear-gradient(310deg, #2dae22 0%, #57e84a 100%);
   border: none;
 }
 
 .pagination.pagination-info .page-item.active>.page-link,
 .pagination.pagination-info .page-item.active>.page-link:focus,
 .pagination.pagination-info .page-item.active>.page-link:hover {
-  background-image: linear-gradient(310deg, #2152ff 0%, #21d4fd 100%);
+  background-image: linear-gradient(310deg, #082aae 0%, #5e7fff 100%);
   border: none;
 }
 
 .pagination.pagination-warning .page-item.active>.page-link,
 .pagination.pagination-warning .page-item.active>.page-link:focus,
 .pagination.pagination-warning .page-item.active>.page-link:hover {
-  background-image: linear-gradient(310deg, #f53939 0%, #fbcf33 100%);
+  background-image: linear-gradient(310deg, #ffb642 0%, #ffd74a 100%);
   border: none;
 }
 
