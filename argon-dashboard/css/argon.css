@@ -16805,42 +16805,7 @@ button.section-darker:focus,
 button.section-darker:hover {
     background-color: #000 !important;
 }
-.bg-gradient-primary {
-    background: linear-gradient(87deg, var(--bs-primary) 0, var(--bs-gradient-primary-left) 100%) !important;
-}
-.bg-gradient-secondary {
-    background: linear-gradient(87deg, var(--bs-secondary) 0, var(--bs-gradient-secondary-left) 100%) !important;
-}
-.bg-gradient-success {
-    background: linear-gradient(87deg, var(--bs-success) 0, var(--bs-gradient-success-left) 100%) !important;
-}
-.bg-gradient-info {
-    background: linear-gradient(87deg, var(--bs-info) 0, var(--bs-gradient-info-left) 100%) !important;
-}
-.bg-gradient-warning {
-    background: linear-gradient(87deg, var(--bs-warning) 0, var(--bs-gradient-warning-left) 100%) !important;
-}
-.bg-gradient-danger {
-    background: linear-gradient(87deg, var(--bs-danger) 0, var(--bs-gradient-danger-left) 100%) !important;
-}
-.bg-gradient-light {
-    background: linear-gradient(87deg, #adb5bd 0, #adaebd 100%) !important;
-}
-.bg-gradient-dark {
-    background: linear-gradient(87deg, var(--bs-dark) 0, var(--bs-gradient-dark-left) 100%) !important;
-}
-.bg-gradient-default {
-    background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
-}
-.bg-gradient-white {
-    background: linear-gradient(87deg, #fff 0, #fff 100%) !important;
-}
-.bg-gradient-neutral {
-    background: linear-gradient(87deg, #fff 0, #fff 100%) !important;
-}
-.bg-gradient-darker {
-    background: linear-gradient(87deg, #000 0, #000 100%) !important;
-}
+
 .fill-primary {
     fill: var(--bs-primary);
 }
