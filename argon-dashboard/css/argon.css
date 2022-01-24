@@ -16572,28 +16572,28 @@ button.bg-lighter:hover {
     background-color: #cbd3da !important;
 }
 .bg-gradient-primary {
-    background: linear-gradient(87deg, var(--bs-primary) 0, var(--bs-gradient-primary-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-primary-right) 0, var(--bs-gradient-primary-left) 100%) !important;
 }
 .bg-gradient-secondary {
-    background: linear-gradient(87deg, var(--bs-secondary) 0, var(--bs-gradient-secondary-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradinet-secondary-right) 0, var(--bs-gradient-secondary-left) 100%) !important;
 }
 .bg-gradient-success {
-    background: linear-gradient(87deg, var(--bs-success) 0, var(--bs-gradient-success-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradinet-success-right) 0, var(--bs-gradient-success-left) 100%) !important;
 }
 .bg-gradient-info {
-    background: linear-gradient(87deg, var(--bs-info) 0, var(--bs-gradient-info-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-info-right) 0, var(--bs-gradient-info-left) 100%) !important;
 }
 .bg-gradient-warning {
-    background: linear-gradient(87deg, var(--bs-warning) 0, var(--bs-gradient-warning-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-warning-right) 0, var(--bs-gradient-warning-left) 100%) !important;
 }
 .bg-gradient-danger {
-    background: linear-gradient(87deg, var(--bs-danger) 0, var(--bs-gradient-danger-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-danger-right) 0, var(--bs-gradient-danger-left) 100%) !important;
 }
 .bg-gradient-light {
     background: linear-gradient(87deg, #adb5bd 0, #adaebd 100%) !important;
 }
 .bg-gradient-dark {
-    background: linear-gradient(87deg, var(--bs-dark) 0, var(--bs-gradient-dark-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-dark-right) 0, var(--bs-gradient-dark-left) 100%) !important;
 }
 .bg-gradient-default {
     background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
@@ -16647,7 +16647,7 @@ button.bg-lighter:hover {
     background: linear-gradient(87deg, #32325d 0, #44325d 100%) !important;
 }
 .bg-gradient-light {
-    background: linear-gradient(87deg, var(--bs-light) 0, var(--bs-gradient-light-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-light-right) 0, var(--bs-gradient-light-left) 100%) !important;
 }
 .bg-gradient-lighter {
     background: linear-gradient(87deg, #e9ecef 0, #e9eaef 100%) !important;
