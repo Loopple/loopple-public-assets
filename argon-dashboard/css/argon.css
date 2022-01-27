@@ -16620,7 +16620,7 @@ button.bg-lighter:hover {
     background: linear-gradient(87deg, #f3a4b5 0, #f3b4a4 100%) !important;
 }
 .bg-gradient-red {
-    background: linear-gradient(87deg, var(--bs-gradient-primary-right) 0, var(--bs-gradient-danger-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-danger-right) 0, var(--bs-gradient-danger-left) 100%) !important;
 }
 .bg-gradient-orange {
     background: linear-gradient(87deg, var(--bs-gradient-warning-right) 0, var(--bs-gradient-warning-left) 100%) !important;
