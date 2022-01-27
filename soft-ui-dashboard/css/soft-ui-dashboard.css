@@ -15780,10 +15780,10 @@ label {
     background-image: linear-gradient(310deg, var(--bs-gradient-info-right), var(--bs-gradient-info-left));
 }
 .bg-gradient-warning {
-    background-image: linear-gradient(310deg, var(--bs-gradient-warning-right), var(--bs-warning));
+    background-image: linear-gradient(310deg, var(--bs-gradient-warning-right), var(--bs-gradient-warning-left));
 }
 .bg-gradient-danger {
-    background-image: linear-gradient(310deg, var(--bs-danger), var(--bs-gradient-danger-left));
+    background-image: linear-gradient(310deg, var(--bs-gradient-danger-right), var(--bs-gradient-danger-left));
 }
 .bg-gradient-light {
     background-image: linear-gradient(310deg, var(--bs-gradient-light-right), var(--bs-gradient-light-left));
