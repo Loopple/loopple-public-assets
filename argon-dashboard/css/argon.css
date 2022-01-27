@@ -16575,10 +16575,10 @@ button.bg-lighter:hover {
     background: linear-gradient(87deg, var(--bs-gradient-primary-right) 0, var(--bs-gradient-primary-left) 100%) !important;
 }
 .bg-gradient-secondary {
-    background: linear-gradient(87deg, var(--bs-gradinet-secondary-right) 0, var(--bs-gradient-secondary-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-secondary-right) 0, var(--bs-gradient-secondary-left) 100%) !important;
 }
 .bg-gradient-success {
-    background: linear-gradient(87deg, var(--bs-gradinet-success-right) 0, var(--bs-gradient-success-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-success-right) 0, var(--bs-gradient-success-left) 100%) !important;
 }
 .bg-gradient-info {
     background: linear-gradient(87deg, var(--bs-gradient-info-right) 0, var(--bs-gradient-info-left) 100%) !important;
@@ -16629,7 +16629,7 @@ button.bg-lighter:hover {
     background: linear-gradient(87deg, #ffd600 0, #beff00 100%) !important;
 }
 .bg-gradient-green {
-    background: linear-gradient(87deg, var(--bs-gradinet-success-right) 0, var(--bs-gradient-success-left) 100%) !important;
+    background: linear-gradient(87deg, var(--bs-gradient-success-right) 0, var(--bs-gradient-success-left) 100%) !important;
 }
 .bg-gradient-teal {
     background: linear-gradient(87deg, var(--bs-gradient-info-right) 0, var(--bs-gradient-info-left) 100%) !important;
