@@ -12442,6 +12442,13 @@ a.text-darker:hover {
     width: 36px;
     height: 36px;
 }
+
+.avatar-xs {
+    font-size: 0.875rem;
+    width: 30px;
+    height: 30px;
+}
+
 .avatar-group .avatar {
     position: relative;
     z-index: 2;
