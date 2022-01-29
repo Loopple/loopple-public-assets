@@ -4535,8 +4535,6 @@ input[type="submit"].btn-block {
     color: rgba(255, 255, 255, 0.65);
 }
 
-//
-
 .navbar.bg-white .navbar-brand {
     color: var(--bs-body-color);
 }
@@ -4577,9 +4575,6 @@ input[type="submit"].btn-block {
 .navbar.bg-var(--bs-body-color)r {
     color: var(--bs-body-color);
 }
-
-//
-
 
 .card {
     position: relative;
