@@ -4534,6 +4534,53 @@ input[type="submit"].btn-block {
 .navbar-dark .navbar-text a:hover {
     color: rgba(255, 255, 255, 0.65);
 }
+
+//
+
+.navbar.bg-white .navbar-brand {
+    color: var(--bs-body-color);
+}
+.navbar.bg-white .navbar-brand:focus,
+.navbar.bg-var(--bs-body-color) {
+    color: var(--bs-body-color);
+}
+.navbar.bg-white .navbar-nav .nav-link {
+    color: var(--bs-body-color);
+}
+.navbar.bg-white .navbar-nav .nav-link:focus,
+.navbar.bg-var(--bs-body-color)nk:hover {
+    color: var(--bs-body-color);
+}
+.navbar.bg-white .navbar-nav .nav-link.disabled {
+    color: var(--bs-body-color);
+}
+.navbar.bg-white .navbar-nav .active > .nav-link,
+.navbar.bg-var(--bs-body-color)nk.active,
+.navbar.bg-var(--bs-body-color)nk.show,
+.navbar.bg-var(--bs-body-color) .nav-link {
+    color: var(--bs-body-color);
+}
+.navbar.bg-white .navbar-toggler {
+    color: var(--bs-body-color);
+    border-color: transparent;
+}
+.navbar.bg-white .navbar-toggler-icon {
+    backgrovar(--bs-body-color)e/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.95)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar.bg-white .navbar-text {
+    color: var(--bs-body-color);
+}
+.navbar.bg-white .navbar-text a {
+    color: var(--bs-body-color);
+}
+.navbar.bg-white .navbar-text a:focus,
+.navbar.bg-var(--bs-body-color)r {
+    color: var(--bs-body-color);
+}
+
+//
+
+
 .card {
     position: relative;
     display: flex;
