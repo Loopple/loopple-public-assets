@@ -14607,28 +14607,28 @@ fieldset:disabled .btn {
 
 */
 .alert-primary {
-    background-image: linear-gradient(310deg, #7928ca, #d6006c);
+    background-image: linear-gradient(310deg, var(--bs-gradient-primary-right), #d6006c);
 }
 .alert-secondary {
-    background-image: linear-gradient(310deg, #627594, #8ca1cb);
+    background-image: linear-gradient(310deg, var(--bs-gradient-secondary-right), #8ca1cb);
 }
 .alert-success {
-    background-image: linear-gradient(310deg, #17ad37, #84dc14);
+    background-image: linear-gradient(310deg, var(--bs-gradient-success-right), #84dc14);
 }
 .alert-info {
-    background-image: linear-gradient(310deg, #2152ff, #02c6f3);
+    background-image: linear-gradient(310deg, var(--bs-gradient-info-right), #02c6f3);
 }
 .alert-warning {
-    background-image: linear-gradient(310deg, #f53939, #fac60b);
+    background-image: linear-gradient(310deg, var(--bs-gradient-warning-right), #fac60b);
 }
 .alert-danger {
     background-image: linear-gradient(310deg, var(--bs-danger), #ff3d59);
 }
 .alert-light {
-    background-image: linear-gradient(310deg, #ced4da, #d1dae6);
+    background-image: linear-gradient(310deg, var(--bs-gradient-light-right), #d1dae6);
 }
 .alert-dark {
-    background-image: linear-gradient(310deg, #141727, #2c3154);
+    background-image: linear-gradient(310deg, var(--bs-gradient-dark-right), #2c3154);
 }
 .btn-close:focus {
     box-shadow: none;
@@ -17365,49 +17365,49 @@ hr.horizontal.gray-light {
 .pagination.pagination-primary .page-item.active > .page-link,
 .pagination.pagination-primary .page-item.active > .page-link:focus,
 .pagination.pagination-primary .page-item.active > .page-link:hover {
-    background-image: linear-gradient(310deg, #7928ca, #ff0080);
+    background-image: linear-gradient(310deg, var(--bs-gradient-primary-right), var(--bs-gradient-primary-left));
     border: none;
 }
 .pagination.pagination-secondary .page-item.active > .page-link,
 .pagination.pagination-secondary .page-item.active > .page-link:focus,
 .pagination.pagination-secondary .page-item.active > .page-link:hover {
-    background-image: linear-gradient(310deg, #627594, #a8b8d8);
+    background-image: linear-gradient(310deg, var(--bs-gradient-secondary-right), var(--bs-gradient-secondary-left));
     border: none;
 }
 .pagination.pagination-success .page-item.active > .page-link,
 .pagination.pagination-success .page-item.active > .page-link:focus,
 .pagination.pagination-success .page-item.active > .page-link:hover {
-    background-image: linear-gradient(310deg, #17ad37, #98ec2d);
+    background-image: linear-gradient(310deg, var(--bs-gradient-success-right), var(--bs-gradient-success-left));
     border: none;
 }
 .pagination.pagination-info .page-item.active > .page-link,
 .pagination.pagination-info .page-item.active > .page-link:focus,
 .pagination.pagination-info .page-item.active > .page-link:hover {
-    background-image: linear-gradient(310deg, #2152ff, #21d4fd);
+    background-image: linear-gradient(310deg, var(--bs-gradient-info-right), var(--bs-gradient-info-left));
     border: none;
 }
 .pagination.pagination-warning .page-item.active > .page-link,
 .pagination.pagination-warning .page-item.active > .page-link:focus,
 .pagination.pagination-warning .page-item.active > .page-link:hover {
-    background-image: linear-gradient(310deg, #f53939, var(--bs-warning));
+    background-image: linear-gradient(310deg, var(--bs-gradient-warning-right), var(--bs-warning));
     border: none;
 }
 .pagination.pagination-danger .page-item.active > .page-link,
 .pagination.pagination-danger .page-item.active > .page-link:focus,
 .pagination.pagination-danger .page-item.active > .page-link:hover {
-    background-image: linear-gradient(310deg, var(--bs-danger), #ff667c);
+    background-image: linear-gradient(310deg, var(--bs-danger), var(--bs-gradient-danger-left));
     border: none;
 }
 .pagination.pagination-light .page-item.active > .page-link,
 .pagination.pagination-light .page-item.active > .page-link:focus,
 .pagination.pagination-light .page-item.active > .page-link:hover {
-    background-image: linear-gradient(310deg, #ced4da, #ebeff4);
+    background-image: linear-gradient(310deg, var(--bs-gradient-light-right), var(--bs-gradient-light-left));
     border: none;
 }
 .pagination.pagination-dark .page-item.active > .page-link,
 .pagination.pagination-dark .page-item.active > .page-link:focus,
 .pagination.pagination-dark .page-item.active > .page-link:hover {
-    background-image: linear-gradient(310deg, #141727, #3a416f);
+    background-image: linear-gradient(310deg, var(--bs-gradient-dark-right), var(--bs-gradient-dark-left));
     border: none;
 }
 .popover {
@@ -18318,22 +18318,22 @@ p {
     z-index: 1;
 }
 .text-gradient.text-primary {
-    background-image: linear-gradient(310deg, #7928ca, #ff0080);
+  background-image: linear-gradient(310deg, var(--bs-gradient-primary-right), var(--bs-gradient-primary-left));
 }
 .text-gradient.text-info {
-    background-image: linear-gradient(310deg, #2152ff, #21d4fd);
+  background-image: linear-gradient(310deg, var(--bs-gradient-info-right), var(--bs-gradient-info-left));
 }
 .text-gradient.text-success {
-    background-image: linear-gradient(310deg, #17ad37, #c1e823);
+  background-image: linear-gradient(310deg, var(--bs-gradient-success-right), var(--bs-gradient-success-left));
 }
 .text-gradient.text-warning {
-    background-image: linear-gradient(310deg, #f53939, var(--bs-warning));
+  background-image: linear-gradient(310deg, var(--bs-gradient-warning-right), var(--bs-gradient-warning-left));
 }
 .text-gradient.text-danger {
-    background-image: linear-gradient(310deg, #d60808, #ff6690);
+  background-image: linear-gradient(310deg, var(--bs-gradient-danger-right), var(--bs-gradient-danger-left));
 }
 .text-gradient.text-dark {
-    background-image: linear-gradient(310deg, #141727, #3a416f);
+  background-image: linear-gradient(310deg, var(--bs-gradient-dark-right), var(--bs-gradient-dark-left));
 }
 .blockquote {
     border-left: 3px solid #6c757d;
