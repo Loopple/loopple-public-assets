@@ -17,6 +17,7 @@
     --bs-cyan: #0dcaf0;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
+    --bs-body-color: var(--bs-body-color);
     --bs-primary: #cb0c9f;
     --bs-secondary: #8392ab;
     --bs-success: #82d616;
@@ -61,7 +62,7 @@ body {
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
     line-height: 1.5;
-    color: #67748e;
+    color: var(--bs-body-color);
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1950,15 +1951,15 @@ progress {
 .table {
     --bs-table-bg: transparent;
     --bs-table-accent-bg: transparent;
-    --bs-table-striped-color: #67748e;
+    --bs-table-striped-color: var(--bs-body-color);
     --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-    --bs-table-active-color: #67748e;
+    --bs-table-active-color: var(--bs-body-color);
     --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-    --bs-table-hover-color: #67748e;
+    --bs-table-hover-color: var(--bs-body-color);
     --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
     width: 100%;
     margin-bottom: 1rem;
-    color: #67748e;
+    color: var(--bs-body-color);
     vertical-align: top;
     border-color: var(--bs-light);
 }
@@ -2869,7 +2870,7 @@ textarea.form-control.is-invalid {
     display: inline-block;
     font-weight: 700;
     line-height: 1.4;
-    color: #67748e;
+    color: var(--bs-body-color);
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -2887,7 +2888,7 @@ textarea.form-control.is-invalid {
     }
 }
 .btn:hover {
-    color: #67748e;
+    color: var(--bs-body-color);
 }
 .btn-check:focus + .btn,
 .btn:focus {
@@ -3626,7 +3627,7 @@ fieldset:disabled .btn {
     padding: 0.5rem 0;
     margin: 0;
     font-size: 0.875rem;
-    color: #67748e;
+    color: var(--bs-body-color);
     text-align: left;
     list-style: none;
     background-color: #fff;
@@ -3816,7 +3817,7 @@ fieldset:disabled .btn {
     padding: 0.3rem 1rem;
     clear: both;
     font-weight: 400;
-    color: #67748e;
+    color: var(--bs-body-color);
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
@@ -3829,7 +3830,7 @@ fieldset:disabled .btn {
 }
 .dropdown-item.active,
 .dropdown-item:active {
-    color: #67748e;
+    color: var(--bs-body-color);
     text-decoration: none;
     background-color: transparent;
 }
@@ -3853,7 +3854,7 @@ fieldset:disabled .btn {
 .dropdown-item-text {
     display: block;
     padding: 0.3rem 1rem;
-    color: #67748e;
+    color: var(--bs-body-color);
 }
 .dropdown-menu-dark {
     color: #dee2e6;
@@ -3870,7 +3871,7 @@ fieldset:disabled .btn {
 }
 .dropdown-menu-dark .dropdown-item.active,
 .dropdown-menu-dark .dropdown-item:active {
-    color: #67748e;
+    color: var(--bs-body-color);
     background-color: transparent;
 }
 .dropdown-menu-dark .dropdown-item.disabled,
@@ -4526,7 +4527,7 @@ fieldset:disabled .btn {
     width: 100%;
     padding: 1rem;
     font-size: 1rem;
-    color: #67748e;
+    color: var(--bs-body-color);
     text-align: left;
     background-color: transparent;
     border: 0;
@@ -4901,7 +4902,7 @@ fieldset:disabled .btn {
     background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-    color: #67748e;
+    color: var(--bs-body-color);
     background-color: var(--bs-light);
 }
 .list-group-item {
@@ -5802,7 +5803,7 @@ fieldset:disabled .btn {
 }
 .popover-body {
     padding: 1rem;
-    color: #67748e;
+    color: var(--bs-body-color);
 }
 .carousel {
     position: relative;
@@ -7918,7 +7919,7 @@ fieldset:disabled .btn {
     color: #fff !important;
 }
 .text-body {
-    color: #67748e !important;
+    color: var(--bs-body-color) !important;
 }
 .text-muted {
     color: #6c757d !important;
@@ -14762,7 +14763,7 @@ fieldset:disabled .btn {
     transform: scale(1.02);
 }
 .btn.bg-white:hover {
-    color: #67748e;
+    color: var(--bs-body-color);
 }
 .btn.btn-link {
     font-weight: 700;
@@ -16254,7 +16255,7 @@ hr.horizontal.gray-light {
 }
 .navbar .sidenav-toggler-inner .sidenav-toggler-line {
     transition: all 0.15s ease;
-    background: #67748e;
+    background: var(--bs-body-color);
     border-radius: 0.125rem;
     position: relative;
     display: block;
@@ -16361,7 +16362,7 @@ hr.horizontal.gray-light {
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: 500;
-    color: #67748e;
+    color: var(--bs-body-color);
 }
 .navbar-vertical .navbar-nav .nav-link > i {
     min-width: 1.8rem;
@@ -18341,7 +18342,7 @@ p {
     font-style: italic;
 }
 .text-muted {
-    color: #67748e !important;
+    color: var(--bs-body-color) !important;
 }
 .text-black-50 {
     color: rgba(0, 0, 0, 0.5) !important;
