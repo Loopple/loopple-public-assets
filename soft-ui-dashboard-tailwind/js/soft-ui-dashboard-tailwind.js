@@ -17,9 +17,6 @@
 */
 
 
-loadStylesheet(to_build + "assets/css/perfect-scrollbar.css");
-loadJS(to_build + "assets/js/perfect-scrollbar.js", true);
-
 if (document.querySelector("aside")) {
 
 
