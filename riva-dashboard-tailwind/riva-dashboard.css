@@ -439,7 +439,7 @@ video {
 
 * {
   scrollbar-width: 7px;
-  scrollbar-color: #f1ede5 transparent;
+  scrollbar-color: #f2f3f4 transparent;
 }
 
 .dark .group\/sidebar * {
@@ -447,23 +447,6 @@ video {
 }
 
 /* Chrome, Edge, and Safari */
-
-*::-webkit-scrollbar {
-  width: 12px;
-  height: 10px;
-}
-
-*::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 0;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-clip: content-box;
-  border: 3px solid transparent;
-  background-color: #f1ede5;
-  border-radius: 4px;
-}
 
 .dark .group\/sidebar *::-webkit-scrollbar-thumb {
   background-color: #ffffff26;
@@ -2886,10 +2869,6 @@ html {
 .bg-zinc-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
-}
-
-.bg-stone-800\/70 {
-  background-color: rgb(41 37 36 / 0.7);
 }
 
 .bg-\[url\(\'\.\.\/src\/img\/dress\.jpg\'\)\] {
@@ -11149,20 +11128,20 @@ html {
     grid-column: span 2 / span 2;
   }
 
-  .sm\:mr-3 {
-    margin-right: 0.75rem;
-  }
-
   .sm\:ml-2 {
     margin-left: 0.5rem;
+  }
+
+  .sm\:ml-4 {
+    margin-left: 1rem;
   }
 
   .sm\:mr-0 {
     margin-right: 0px;
   }
 
-  .sm\:ml-4 {
-    margin-left: 1rem;
+  .sm\:mr-3 {
+    margin-right: 0.75rem;
   }
 
   .sm\:flex {
@@ -11213,18 +11192,6 @@ html {
 
   .md\:mr-5 {
     margin-right: 1.25rem;
-  }
-
-  .md\:ml-4 {
-    margin-left: 1rem;
-  }
-
-  .md\:ml-2 {
-    margin-left: 0.5rem;
-  }
-
-  .md\:flex {
-    display: flex;
   }
 
   .md\:h-full {
@@ -11309,10 +11276,6 @@ html {
     margin-right: 1.5rem;
   }
 
-  .lg\:ml-3 {
-    margin-left: 0.75rem;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -11392,6 +11355,10 @@ html {
 
   .lg\:gap-9 {
     gap: 2.25rem;
+  }
+
+  .lg\:bg-light\/30 {
+    background-color: rgb(249 250 252 / 0.3);
   }
 
   .lg\:p-12 {
