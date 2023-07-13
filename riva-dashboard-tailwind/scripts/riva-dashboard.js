@@ -1356,6 +1356,11 @@ if (document.querySelector("#map")) {
     map.destroy();
   }
 
+  // Check if map has content and remove it
+  if(document.querySelector('#map').innerHTML.trim() !== ''){
+    document.querySelector('#map').innerHTML = '';
+  }
+
   // Initialize the vector map
   var map = new jsVectorMap({
     selector: "#map",
