@@ -1351,6 +1351,11 @@ if (document.querySelector(".group\\/sidebar-menu")) {
 
 if (document.querySelector("#map")) {
 
+  if (typeof map !== "undefined") {
+    // Destroy the existing map
+    map.destroy();
+  }
+
   // Initialize the vector map
   var map = new jsVectorMap({
     selector: "#map",
