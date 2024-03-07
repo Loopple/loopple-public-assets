@@ -91,7 +91,7 @@ section {
     display: block;
 }
 body {
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-family-sans-serif);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -198,7 +198,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: var(--font-family-monospace);
     font-size: 1em;
 }
 pre {
@@ -5893,7 +5893,7 @@ a.close.disabled {
     }
 }
 .tooltip {
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-family-sans-serif);
     font-size: 0.875rem;
     font-weight: 400;
     font-style: normal;
@@ -5999,7 +5999,7 @@ a.close.disabled {
     background-color: #000;
 }
 .popover {
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-family-sans-serif);
     font-size: 0.875rem;
     font-weight: 400;
     font-style: normal;
@@ -12056,7 +12056,7 @@ button.bg-darker:hover {
     }
 }
 .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-family: var(--font-family-monospace) !important;
 }
 .text-justify {
     text-align: justify !important;
@@ -18369,7 +18369,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     left: auto;
 }
 .ql-container {
-    font-family: Open Sans, sans-serif;
+    font-family: var(--font-family-sans-serif);
 }
 .ql-toolbar {
     position: relative;
