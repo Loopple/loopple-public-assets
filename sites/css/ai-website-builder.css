@@ -4046,12 +4046,6 @@ video {
   word-break: break-word;
 }
 
-.bg-\[radial-gradient\(122\.86\%_92\.5\%_at_50\%_100\%\2c
-  _\#A479FF_0\%\2c
-  _\#6023FF_71\.5\%\)\] {
-  background-image: radial-gradient(
-    122.86% 92.5% at 50% 100%,
-    #a479ff 0%,
-    #6023ff 71.5%
-  );
+.bg-\[radial-gradient\(122\.86\%_92\.5\%_at_50\%_100\%\2c _\#A479FF_0\%\2c _\#6023FF_71\.5\%\)\]{
+    background-image: radial-gradient(122.86% 92.5% at 50% 100%, #A479FF 0%, #6023FF 71.5%);
 }
