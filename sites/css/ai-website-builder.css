@@ -2134,6 +2134,15 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+/* Fonts */
+.font-display {
+    font-family: var(--font-family-sans-serif);
+}
+
+.font-body {
+    font-family: var(--font-family-monospace);
+}
+
 .bg-\[radial-gradient\(122\.86\%_92\.5\%_at_50\%_100\%\2c
   _\#A479FF_0\%\2c
   _\#6023FF_71\.5\%\)\] {
